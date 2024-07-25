@@ -142,3 +142,10 @@ Github: https://github.com/gurnitha/2024-dj4-medium-clone-turki-final
 
 ## 3. PAGES
 
+
+#### 1. Menampilkan Hello World! 
+
+        modified:   README.md
+        new file:   app/page/urls.py
+        modified:   app/page/views.py
+        modified:   config/urls.py
