@@ -158,3 +158,9 @@ Github: https://github.com/gurnitha/2024-dj4-medium-clone-turki-final
         modified:   app/page/views.py
         modified:   config/settings.py
         new file:   templates/page/index.html
+
+
+#### 3. Mengisi HTML templat pada homepage
+
+        modified:   README.md
+        modified:   templates/page/index.html
