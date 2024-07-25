@@ -2,6 +2,9 @@
 Github: https://github.com/gurnitha/2024-dj4-medium-clone-turki-final
 
 
+## 1. SETUP
+
+
 #### 1. Memodifikasi struktur awal file proyek
 
         modified:   README.md
@@ -69,3 +72,6 @@ Github: https://github.com/gurnitha/2024-dj4-medium-clone-turki-final
         pip      24.1.2
         sqlparse 0.5.1
         tzdata   2024.1
+
+
+## 2. PROYEK DAN APLIKASI
