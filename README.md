@@ -135,6 +135,10 @@ Github: https://github.com/gurnitha/2024-dj4-medium-clone-turki-final
         modified:   README.md
         modified:   app/page/apps.py
         modified:   config/settings.py
-        
+
         (medium-clone) λ python manage.py check
         System check identified no issues (0 silenced).
+
+
+## 3. PAGES
+
