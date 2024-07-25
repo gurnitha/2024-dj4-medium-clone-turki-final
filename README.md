@@ -117,3 +117,14 @@ Github: https://github.com/gurnitha/2024-dj4-medium-clone-turki-final
 
         modified:   README.md
         modified:   config/settings.py
+
+
+#### 5. Membuat aplikasi page
+
+        new file:   app/page/__init__.py
+        new file:   app/page/admin.py
+        new file:   app/page/apps.py
+        new file:   app/page/migrations/__init__.py
+        new file:   app/page/models.py
+        new file:   app/page/tests.py
+        new file:   app/page/views.py
