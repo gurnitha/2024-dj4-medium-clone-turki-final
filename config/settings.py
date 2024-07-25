@@ -47,6 +47,7 @@ THIRD_PARY_APPS = [
 
 # My apps
 MY_APPS = [
+    "app.page",
 ]
 
 # Installed apps

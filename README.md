@@ -128,3 +128,13 @@ Github: https://github.com/gurnitha/2024-dj4-medium-clone-turki-final
         new file:   app/page/models.py
         new file:   app/page/tests.py
         new file:   app/page/views.py
+
+
+#### 6. Meng-integrasikan aplikasi page dengan proyek
+
+        modified:   README.md
+        modified:   app/page/apps.py
+        modified:   config/settings.py
+        
+        (medium-clone) λ python manage.py check
+        System check identified no issues (0 silenced).
