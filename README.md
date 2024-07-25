@@ -86,3 +86,23 @@ Github: https://github.com/gurnitha/2024-dj4-medium-clone-turki-final
         new file:   config/urls.py
         new file:   config/wsgi.py
         new file:   manage.py
+
+
+#### 2. Menjalankan development server
+
+        (medium-clone) λ ls
+        config/  manage.py*  README.md
+
+        C:\Users\ING\Desktop\medium-clone\2024-dj4-medium-clone-turki-final\src(main -> origin)
+        (medium-clone) λ python manage.py runserver
+        Watching for file changes with StatReloader
+        Performing system checks...
+
+        System check identified no issues (0 silenced).
+
+        You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+        Run 'python manage.py migrate' to apply them.
+        July 25, 2024 - 11:39:45
+        Django version 4.1.3, using settings 'config.settings'
+        Starting development server at http://127.0.0.1:8000/
+        Quit the server with CTRL-BREAK.
