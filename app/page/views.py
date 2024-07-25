@@ -7,8 +7,5 @@ import datetime
 
 # Create your views here.
 
-def hallo_world_view(request):
-    now = datetime.datetime.now()
-    html = "<html><body><h1>Hello World!</h1> It is now %s.</body></html>" % now
-    return HttpResponse(html)
-
+def home_view(request):
+    return render(request, "page/index.html")

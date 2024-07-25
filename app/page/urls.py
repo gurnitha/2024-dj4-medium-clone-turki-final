@@ -9,5 +9,5 @@ from app.page import views
 app_name = "page"
 
 urlpatterns = [
-    path("", views.hallo_world_view),
+    path("", views.home_view),
 ]

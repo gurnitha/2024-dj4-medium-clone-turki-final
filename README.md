@@ -149,3 +149,12 @@ Github: https://github.com/gurnitha/2024-dj4-medium-clone-turki-final
         new file:   app/page/urls.py
         modified:   app/page/views.py
         modified:   config/urls.py
+
+
+#### 2. Membuat dan menampilkan homepage
+
+        modified:   README.md
+        modified:   app/page/urls.py
+        modified:   app/page/views.py
+        modified:   config/settings.py
+        new file:   templates/page/index.html
