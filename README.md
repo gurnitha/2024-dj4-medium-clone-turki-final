@@ -164,3 +164,19 @@ Github: https://github.com/gurnitha/2024-dj4-medium-clone-turki-final
 
         modified:   README.md
         modified:   templates/page/index.html
+
+
+#### 4. Mengisi static files dan membuat pathnya
+
+        modified:   README.md
+        modified:   config/settings.py
+        new file:   static/css/bootstrap.min.css
+        new file:   static/css/bootstrap.min.css.map
+        new file:   static/css/style.css
+        new file:   static/css/tagify.css
+        new file:   static/js/axios.min.js
+        new file:   static/js/bootstrap.bundle.min.js
+        new file:   static/js/bootstrap.bundle.min.js.map
+        new file:   static/js/tagify.js
+        new file:   static/js/tagify.polyfills.min.js
+        new file:   static/js/tinymce.min.js
