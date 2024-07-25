@@ -30,7 +30,8 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-INSTALLED_APPS = [
+# Defautl apps
+BASE_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -38,6 +39,19 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
 ]
+
+# Third party apps
+THIRD_PARY_APPS = [
+
+]
+
+# My apps
+MY_APPS = [
+]
+
+# Installed apps
+INSTALLED_APPS = BASE_APPS + THIRD_PARY_APPS + MY_APPS
+
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -103,9 +117,10 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
 
-LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+LANGUAGE_CODE = "id"
+
+TIME_ZONE = "Asia/Jakrta"
 
 USE_I18N = True
 
