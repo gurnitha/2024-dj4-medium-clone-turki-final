@@ -106,3 +106,8 @@ Github: https://github.com/gurnitha/2024-dj4-medium-clone-turki-final
         Django version 4.1.3, using settings 'config.settings'
         Starting development server at http://127.0.0.1:8000/
         Quit the server with CTRL-BREAK.
+
+
+#### 3. Menlihat tampilan laman default django di browser
+
+        http://127.0.0.1:8000/
