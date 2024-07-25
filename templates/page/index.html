@@ -1,13 +1,13 @@
 <!-- src/templates/page/index.html -->
-
+{% load static %}
 <!doctype html>
 <html lang="tr">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MD Clone</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
     <!-- NAVBAR -->
@@ -49,7 +49,7 @@
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <img src="https://picsum.photos/id/117/1000/600?grayscale" alt="" class="w-100">
+                    <img src="{% static 'img/hero.jpg' %}" alt="" class="w-100">
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
                     <div class="col-10 mt-3">
                         <div>
                             <a href="#" class="text-decoration-none text-muted">
-                                <img src="https://picsum.photos/id/110/30/30?grayscale" class="rounded-circle" alt="">
+                                <img src="{% static 'img/thumbnail-small-1.jpg' %}" class="rounded-circle" alt="">
                                 <small class="ms-2">Tom Cooper</small>
                             </a>
                         </div>
@@ -112,7 +112,7 @@
                     <div class="col-10 mt-3">
                         <div>
                             <a href="#" class="text-decoration-none text-muted">
-                                <img src="https://picsum.photos/id/111/30/30?grayscale" class="rounded-circle" alt="">
+                                <img src="{% static 'img/thumbnail-small-2.jpg' %}" class="rounded-circle" alt="">
                                 <small class="ms-2">Lorem Cooper</small>
                             </a>
                         </div>
@@ -141,7 +141,7 @@
                     <div class="col-10 mt-3">
                         <div>
                             <a href="#" class="text-decoration-none text-muted">
-                                <img src="https://picsum.photos/id/112/30/30?grayscale" class="rounded-circle" alt="">
+                                <img src="{% static 'img/thumbnail-small-3.jpg' %}" class="rounded-circle" alt="">
                                 <small class="ms-2">Lorem, ipsum dolor.</small>
                             </a>
                         </div>
@@ -176,7 +176,7 @@
                     <div class="col-10 mt-3">
                         <div>
                             <a href="#" class="text-decoration-none text-muted">
-                                <img src="https://picsum.photos/id/120/30/30?grayscale" class="rounded-circle" alt="">
+                                <img src="{% static 'img/thumbnail-small-4.jpg' %}" class="rounded-circle" alt="">
                                 <small class="ms-2">Jon Cooper</small>
                             </a>
                         </div>
@@ -205,7 +205,7 @@
                     <div class="col-10 mt-3">
                         <div>
                             <a href="#" class="text-decoration-none text-muted">
-                                <img src="https://picsum.photos/id/121/30/30?grayscale" class="rounded-circle" alt="">
+                                <img src="{% static 'img/thumbnail-small-5.jpg' %}" class="rounded-circle" alt="">
                                 <small class="ms-2">Lorem ipsum dolor sit.</small>
                             </a>
                         </div>
@@ -234,7 +234,7 @@
                     <div class="col-10 mt-3">
                         <div>
                             <a href="#" class="text-decoration-none text-muted">
-                                <img src="https://picsum.photos/id/212/30/30?grayscale" class="rounded-circle" alt="">
+                                <img src="{% static 'img/thumbnail-small-6.jpg' %}" class="rounded-circle" alt="">
                                 <small class="ms-2">Lorem, ipsum dolor.</small>
                             </a>
                         </div>
@@ -270,7 +270,7 @@
                     <div class="col-sm-8">
                         <div>
                             <a href="#" class="text-decoration-none text-muted">
-                                <img src="https://picsum.photos/id/212/30/30?grayscale" class="rounded-circle" alt="">
+                                <img src="{% static 'img/thumbnail-small-1.jpg' %}" class="rounded-circle" alt="">
                                 <small class="ms-2">Lorem, ipsum dolor.</small>
                             </a>
                         </div>
@@ -294,7 +294,7 @@
                         </ul>
                     </div>
                     <div class="col-sm-4">
-                        <img src="https://picsum.photos/id/220/400/300?grayscale" alt="" class="w-100 img-thumbnail">
+                        <img src="{% static 'img/thumbnail-1.jpg' %}" alt="" class="w-100 img-thumbnail">
                     </div>
 
                 </article>
@@ -303,7 +303,7 @@
                     <div class="col-sm-8">
                         <div>
                             <a href="#" class="text-decoration-none text-muted">
-                                <img src="https://picsum.photos/id/213/30/30?grayscale" class="rounded-circle" alt="">
+                                <img src="{% static 'img/thumbnail-small-2.jpg' %}" class="rounded-circle" alt="">
                                 <small class="ms-2">Lorem, ipsum dolor.</small>
                             </a>
                         </div>
@@ -327,7 +327,7 @@
                         </ul>
                     </div>
                     <div class="col-sm-4">
-                        <img src="https://picsum.photos/id/213/400/300?grayscale" alt="" class="w-100 img-thumbnail">
+                        <img src="{% static 'img/thumbnail-2.jpg' %}" alt="" class="w-100 img-thumbnail">
                     </div>
 
                 </article>
@@ -336,7 +336,7 @@
                     <div class="col-sm-8">
                         <div>
                             <a href="#" class="text-decoration-none text-muted">
-                                <img src="https://picsum.photos/id/214/30/30?grayscale" class="rounded-circle" alt="">
+                                <img src="{% static 'img/thumbnail-small-3.jpg' %}" class="rounded-circle" alt="">
                                 <small class="ms-2">Lorem, ipsum dolor.</small>
                             </a>
                         </div>
@@ -360,7 +360,7 @@
                         </ul>
                     </div>
                     <div class="col-sm-4">
-                        <img src="https://picsum.photos/id/214/400/300?grayscale" alt="" class="w-100 img-thumbnail">
+                        <img src="{% static 'img/thumbnail-3.jpg' %}" alt="" class="w-100 img-thumbnail">
                     </div>
 
                 </article>
@@ -371,7 +371,7 @@
                     <div class="col-sm-8">
                         <div>
                             <a href="#" class="text-decoration-none text-muted">
-                                <img src="https://picsum.photos/id/215/30/30?grayscale" class="rounded-circle" alt="">
+                                <img src="{% static 'img/thumbnail-small-4.jpg' %}" class="rounded-circle" alt="">
                                 <small class="ms-2">Lorem, ipsum dolor.</small>
                             </a>
                         </div>
@@ -395,7 +395,7 @@
                         </ul>
                     </div>
                     <div class="col-sm-4">
-                        <img src="https://picsum.photos/id/215/400/300?grayscale" alt="" class="w-100 img-thumbnail">
+                        <img src="{% static 'img/thumbnail-4.jpg' %}" alt="" class="w-100 img-thumbnail">
                     </div>
 
                 </article>
@@ -435,8 +435,15 @@
         </div>
     </section>
     <!-- CONTENT END -->
-    
-    <script src="js/bootstrap.bundle.min.js"></script>
+
+	<div class="bg-warning border-bottom border-dark">
+        <div class="container py-3">
+            <div class="row">
+            	<p>&copy; 2024 - Developed with love by Skill_Sets Training</p>
+            </div>
+        </div>
+    </div>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
 </body>
 
 </html>

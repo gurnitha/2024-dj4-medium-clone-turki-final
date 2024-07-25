@@ -180,3 +180,20 @@ Github: https://github.com/gurnitha/2024-dj4-medium-clone-turki-final
         new file:   static/js/tagify.js
         new file:   static/js/tagify.polyfills.min.js
         new file:   static/js/tinymce.min.js
+
+
+#### 5. Load static files pada homepage
+
+        modified:   README.md
+        new file:   static/img/hero.jpg
+        new file:   static/img/thumbnail-1.jpg
+        new file:   static/img/thumbnail-2.jpg
+        new file:   static/img/thumbnail-3.jpg
+        new file:   static/img/thumbnail-4.jpg
+        new file:   static/img/thumbnail-small-1.jpg
+        new file:   static/img/thumbnail-small-2.jpg
+        new file:   static/img/thumbnail-small-3.jpg
+        new file:   static/img/thumbnail-small-4.jpg
+        new file:   static/img/thumbnail-small-5.jpg
+        new file:   static/img/thumbnail-small-6.jpg
+        modified:   templates/page/index.html
